@@ -25,14 +25,24 @@ function decrypt(text) {
 function encryptText() {
     const input = document.getElementById("inputText").value;
     const output = encrypt(input);
-    document.getElementById("outputText").value = output;
+    displayResult(output);
 }
 
 // Función para manejar el desencriptado desde la interfaz
 function decryptText() {
     const input = document.getElementById("inputText").value;
     const output = decrypt(input);
-    document.getElementById("outputText").value = output;
+    displayResult(output);
+}
+
+// Función para mostrar el resultado y habilitar el botón de copiar
+function displayResult(output) {
+    const outputText = document.getElementById("outputText");
+    const copyButton = document.getElementById("copyButton");
+    
+    outputText.value = output;
+    outputText.style.display = "block"; // Mostrar el área de texto de salida
+    copyButton.style.display = "block"; // Mostrar el botón de copiar
 }
 
 // Función para copiar el texto al portapapeles

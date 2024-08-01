@@ -68,10 +68,14 @@ function displayResult(output) {
     copyButton.style.display = "block"; // Mostrar el botón de copiar
 }
 
-// Función para copiar el texto al portapapeles
+// Función para copiar el texto al portapapeles utilizando la Clipboard API
 function copyText() {
-    const output = document.getElementById("outputText");
-    output.select();
-    document.execCommand("copy");
-    alert("Texto copiado al portapapeles");
+    const output = document.getElementById("outputText").value;
+
+    // Usando la API del Portapapeles moderna
+    navigator.clipboard.writeText(output).then(() => {
+        alert("Texto copiado al portapapeles");
+    }).catch(err => {
+        console.error("Error al copiar el texto: ", err);
+    });
 }

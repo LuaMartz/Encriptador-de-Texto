@@ -10,6 +10,7 @@
     <h1>Encriptador de Texto</h1>
     <div class="container">
         <textarea id="inputText" placeholder="Introduce el texto aquí..."></textarea>
+        <p id="errorMessage" style="color: red; display: none;">El texto contiene mayúsculas o caracteres especiales. Solo se permiten letras minúsculas sin acentos.</p>
         <div class="buttons">
             <button onclick="encryptText()">Encriptar</button>
             <button onclick="decryptText()">Desencriptar</button>

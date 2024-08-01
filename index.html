@@ -10,13 +10,13 @@
     <h1>Encriptador de Texto</h1>
     <div class="container">
         <textarea id="inputText" placeholder="Introduce el texto aquí..."></textarea>
-        <p id="errorMessage" style="color: red; display: none;">El texto contiene mayúsculas o caracteres especiales. Solo se permiten letras minúsculas sin acentos.</p>
+        <p id="errorMessage" style="display: none;">El texto contiene mayúsculas o caracteres especiales. Solo se permiten letras minúsculas sin acentos.</p>
         <div class="buttons">
             <button onclick="encryptText()">Encriptar</button>
             <button onclick="decryptText()">Desencriptar</button>
         </div>
         <textarea id="outputText" placeholder="El resultado aparecerá aquí..." readonly style="display:none;"></textarea>
-        <button onclick="copyText()" style="display:none;" id="copyButton">Copiar</button>
+        <button onclick="copyText()" id="copyButton">Copiar</button>
     </div>
     <footer>
         <p>Creado por Luisa Maria Martinez Ramirez - LuaMartz, 2024</p>

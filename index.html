@@ -7,28 +7,31 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <div class="contenedor">
         <img src="assets/Logo.svg" alt="Logo Alura">
-    </header>
-    <div>
-        <div>
-            <textarea id="inputText" placeholder="Introduce el texto aquí..."></textarea>
-            <p id="errorMessage" style="display: none;">El texto contiene mayúsculas o caracteres especiales. Solo se permiten letras minúsculas sin acentos.</p>
-            <div>
-                <img src="assets/aviso.svg" alt="Aviso Icon">
-                <p>Solo letras minúsculas y sin acentos</p>
+        <div class="contenedor-content">
+
+            <div class="encriptar">
+                <textarea id="inputText" class="texto" placeholder="Introduce el texto aquí..."></textarea>
+                <p id="errorMessage" style="display: none;">El texto contiene mayúsculas o caracteres especiales. Solo se permiten letras minúsculas sin acentos.</p>
+                <div>
+                    <img src="assets/aviso.svg" alt="Aviso Icon">
+                    <p>Solo letras minúsculas y sin acentos</p>
+                </div>
+                <div class="buttons">
+                    <button onclick="encryptText()">Encriptar</button>
+                    <button onclick="decryptText()">Desencriptar</button>
+                </div>
+                <textarea id="outputText" placeholder="El resultado aparecerá aquí..." readonly style="display:none;"></textarea>
+                <button onclick="copyText()" id="copyButton">Copiar</button>
             </div>
-            <div class="buttons">
-                <button onclick="encryptText()">Encriptar</button>
-                <button onclick="decryptText()">Desencriptar</button>
+            <div class="container">
+                <img src="assets/Muñeco.svg" alt="Ilustración">
+                <div class="text-container">
+                    <h2>Ningún mensaje fue encontrado</h2>
+                    <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
             </div>
-            <textarea id="outputText" placeholder="El resultado aparecerá aquí..." readonly style="display:none;"></textarea>
-            <button onclick="copyText()" id="copyButton">Copiar</button>
-        </div>
-        <div class="container">
-            <img src="assets/Muñeco.svg" alt="Ilustración">
-            <h2>Ningún mensaje fue encontrado</h2>
-            <p>Ingresa el texto que desees encriptar o desencriptar.</p>
         </div>
     </div>
     <footer>

@@ -1,17 +1,19 @@
 /* Estilos Generales */
-*{
+* {
     font-family: 'Inter';
-
+    box-sizing: border-box;
 }
+
 body {
-    font-family: 'Inter';
     background-color: #F3F5FC;
     color: #333;
     width: 100%;
     height: auto;
+    margin: 0;
+    padding: 0;
 }
 
-.contenedor{
+.contenedor {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -22,7 +24,7 @@ body {
     margin-bottom: 50px;
 }
 
-.contenedor-content{
+.contenedor-content {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -41,16 +43,14 @@ body {
 
 .text-container {
     width: 90%;
-    font-family: 'Inter';
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-
 }
 
-.copyButton{
+.copyButton {
     margin-top: 100%;
 }
 
@@ -78,10 +78,7 @@ textarea::placeholder {
 .alert {
     display: flex;
     align-items: center;
-    top: 10px;
-    left: 10px;
     font-size: 14px;
-    flex-wrap: nowrap;
     color: #495057;
 }
 
@@ -98,7 +95,6 @@ textarea::placeholder {
 }
 
 button {
-    width: auto;
     height: auto;
     margin: 10px;
     border: solid;
@@ -133,9 +129,7 @@ button {
     align-content: center;
     justify-content: space-evenly;
     flex-direction: column;
-    flex-wrap: nowrap;
     align-items: center;
-    
 }
 
 #copyButton {
@@ -153,13 +147,11 @@ button {
     font-size: 16px;
 }
 
-#resultText{
+#resultText {
     text-align: justify;
-    height: auto;
     width: 100%;
     font-size: large;
 }
-
 
 #errorMessage {
     color: red;
@@ -174,7 +166,7 @@ footer {
     background: #fbfbfd;
 }
 
-.cont{
+.cont {
     display: flex;
     justify-content: center;
 }
@@ -184,6 +176,7 @@ footer {
     position: relative;
     overflow-x: hidden;
 }
+
 .new_footer_top .footer_bg {
     position: absolute;
     bottom: 0;
@@ -196,7 +189,7 @@ footer {
     background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEia0PYPxwT5ifToyP3SNZeQWfJEWrUENYA5IXM6sN5vLwAKvaJS1pQVu8mOFFUa_ET4JuHNTFAxKURFerJYHDUWXLXl1vDofYXuij45JZelYOjEFoCOn7E6Vxu0fwV7ACPzArcno1rYuVxGB7JY6G7__e4_KZW4lTYIaHSLVaVLzklZBLZnQw047oq5-Q/s16000/volks.gif") no-repeat center center;
     width: 330px;
     height: 105px;
-  background-size:100%;
+    background-size: 100%;
     position: absolute;
     bottom: 0;
     left: 30%;
@@ -208,7 +201,7 @@ footer {
     background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyLGwEUVwPK6Vi8xXMymsc-ZXVwLWyXhogZxbcXQYSY55REw_0D4VTQnsVzCrL7nsyjd0P7RVOI5NKJbQ75koZIalD8mqbMquP20fL3DxsWngKkOLOzoOf9sMuxlbyfkIBTsDw5WFUj-YJiI50yzgVjF8cZPHhEjkOP_PRTQXDHEq8AyWpBiJdN9SfQA/s16000/cyclist.gif") no-repeat center center;
     width: 88px;
     height: 100px;
-  background-size:100%;
+    background-size: 100%;
     bottom: 0;
     left: 38%;
     position: absolute;
@@ -217,31 +210,126 @@ footer {
 }
 
 @-moz-keyframes myfirst {
-  0% {
-    left: -25%;
-  }
-  100% {
-    left: 100%;
-  }
+    0% {
+        left: -25%;
+    }
+    100% {
+        left: 100%;
+    }
 }
 
 @-webkit-keyframes myfirst {
-  0% {
-    left: -25%;
-  }
-  100% {
-    left: 100%;
-  }
+    0% {
+        left: -25%;
+    }
+    100% {
+        left: 100%;
+    }
 }
 
 @keyframes myfirst {
-  0% {
-    left: -25%;
-  }
-  100% {
-    left: 100%;
-  }
+    0% {
+        left: -25%;
+    }
+    100% {
+        left: 100%;
+    }
 }
 
-/*************footer End*****************/
+/* Responsivo */
+@media (max-width: 768px) {
+    .contenedor {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 20px;
+        display: flex;
+        width: 100%;
+    }
 
+    .contenedor-content {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .encriptar {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        margin: 5px;
+        font-size: 14px;
+    }
+
+    .text-container {
+        width: 90%;
+    }
+
+    textarea {
+        margin-top: 30px;
+        height: 50vh;
+        font-size: 14px;
+    }
+
+    .alert {
+        font-size: 12px;
+    }
+
+    .buttons {
+        margin-bottom: 10px;
+    }
+
+    button {
+        padding: 10px 80px;
+        font-size: 14px;
+    }
+
+    .container {
+        min-width: 300px;
+        max-width: 100%;
+    }
+
+    #copyButton {
+        padding: 10px 80px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contenedor {
+        padding: 5px;
+    }
+
+    .encriptar {
+        width: 95%;
+        height: auto;
+        font-size: 12px;
+    }
+
+    textarea {
+        height: 40%;
+        font-size: 12px;
+    }
+
+    .alert {
+        font-size: 10px;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+    button {
+        padding: 8px 40px;
+        font-size: 12px;
+    }
+
+    .container {
+        min-width: 250px;
+        max-width: 95%;
+    }
+
+    #copyButton {
+        padding: 8px 40px;
+        font-size: 12px;
+    }
+}

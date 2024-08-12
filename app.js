@@ -56,21 +56,26 @@ function decryptText() {
     displayResult(output);
 }
 
-// Función para mostrar el resultado y habilitar el botón de copiar
+// Función para mostrar el resultado en la segunda columna, ocultar la imagen y habilitar el botón de copiar
 function displayResult(output) {
-    const outputText = document.getElementById("outputText");
+    const resultTitle = document.getElementById("resultTitle");
+    const resultText = document.getElementById("resultText");
     const copyButton = document.getElementById("copyButton");
     const errorMessage = document.getElementById("errorMessage");
-    
+    const image = document.querySelector(".container img");
+
     errorMessage.style.display = "none"; // Ocultar mensaje de error si lo hubiera
-    outputText.value = output;
-    outputText.style.display = "block"; // Mostrar el área de texto de salida
-    copyButton.style.display = "block"; // Mostrar el botón de copiar
+    resultTitle.style.display = "none";
+    resultText.textContent = output;
+
+    // Ocultar la imagen y mostrar el botón de copiar
+    image.style.display = "none";
+    copyButton.style.display = "block";
 }
 
 // Función para copiar el texto al portapapeles utilizando la Clipboard API
 function copyText() {
-    const output = document.getElementById("outputText").value;
+    const output = document.getElementById("resultText").textContent;
 
     // Usando la API del Portapapeles moderna
     navigator.clipboard.writeText(output).then(() => {

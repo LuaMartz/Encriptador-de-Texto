@@ -10,7 +10,6 @@
     <div class="contenedor">
         <img src="assets/Logo.svg" alt="Logo Alura">
         <div class="contenedor-content">
-
             <div class="encriptar">
                 <textarea id="inputText" class="texto" placeholder="Introduce el texto aquí..."></textarea>
                 <p id="errorMessage" style="display: none;">El texto contiene mayúsculas o caracteres especiales. Solo se permiten letras minúsculas sin acentos.</p>
@@ -19,23 +18,36 @@
                     <p>Solo letras minúsculas y sin acentos</p>
                 </div>
                 <div class="buttons">
-                    <button onclick="encryptText()">Encriptar</button>
-                    <button onclick="decryptText()">Desencriptar</button>
+                    <button class="bt-encriptar" onclick="encryptText()">Encriptar</button>
+                    <button class="bt-desencriptar" onclick="decryptText()">Desencriptar</button>
                 </div>
-                <textarea id="outputText" placeholder="El resultado aparecerá aquí..." readonly style="display:none;"></textarea>
-                <button onclick="copyText()" id="copyButton">Copiar</button>
             </div>
             <div class="container">
                 <img src="assets/Muñeco.svg" alt="Ilustración">
                 <div class="text-container">
-                    <h2>Ningún mensaje fue encontrado</h2>
-                    <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                    <h2 id="resultTitle">Ningún mensaje fue encontrado</h2>
+                    <div class="resultText">
+                        <p id="resultText">Ingresa el texto que desees encriptar o desencriptar.</p>
+                    </div>
+                    <div class="copyButton">
+                        <button onclick="copyText()" id="copyButton" class="bt-copiar" style="display: none;">Copiar</button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <footer>
-        <p>Creado por Luisa Maria Martinez Ramirez - LuaMartz, 2024</p>
+    <footer class="new_footer_area bg_color">
+        <div class="new_footer_top">
+            <div class="cont">
+                <div>
+                    <p>Creado por Luisa Maria Martinez Ramirez - LuaMartz, 2024.</p>
+                </div>
+            </div>
+            <div class="footer_bg">
+                <div class="footer_bg_one"></div>
+                <div class="footer_bg_two"></div>
+            </div>
+        </div>
     </footer>
     <script src="app.js"></script>
 </body>

@@ -16,9 +16,10 @@ body {
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-evenly;
-    width: 80%;
+    width: 95%;
     height: fit-content;
     padding: 20px;
+    margin-bottom: 50px;
 }
 
 .contenedor-content{
@@ -27,12 +28,12 @@ body {
     align-items: flex-start;
     justify-content: space-between;
     width: 100%;
-    height: 75vh;
+    height: 90vh;
 }
 
 .encriptar {
     width: 80%;
-    height: 71vh;
+    height: 87vh;
     padding: 10px;
     margin: 10px;
     font-size: 16px;

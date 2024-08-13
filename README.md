@@ -1,6 +1,6 @@
 # Encriptador de Texto
 
-![Encriptador de Texto](https://via.placeholder.com/1200x400.png?text=Encriptador+de+Texto+-+Protege+Tu+Información)
+![Imagen de portada](assets/coding%20Class.png)
 
 [![GitHub release](https://img.shields.io/github/v/release/luamartz/Encriptador-de-Texto)](https://github.com/luamartz/Encriptador-de-Texto/releases)
 [![GitHub issues](https://img.shields.io/github/issues/luamartz/Encriptador-de-Texto)](https://github.com/luamartz/Encriptador-de-Texto/issues)
@@ -22,6 +22,38 @@
 ## 📝 Descripción del Proyecto
 
 El "Encriptador de Texto" es una aplicación web diseñada para facilitar la encriptación y desencriptación de texto mediante reemplazo específico de caracteres. Está pensado para usuarios que necesitan una solución sencilla y efectiva para proteger sus comunicaciones textuales sin utilizar caracteres especiales o acentos, enfocándose únicamente en letras minúsculas.
+
+Las "llaves" de encriptación que utilizaremos son las siguientes:
+
+La letra "e" es convertida para "enter"
+La letra "i" es convertida para "imes"
+La letra "a" es convertida para "ai"
+La letra "o" es convertida para "ober"
+La letra "u" es convertida para "ufat"
+
+### Requisitos:
+
+Debe funcionar solo con letras minúsculas
+
+No deben ser utilizados letras con acentos ni caracteres especiales
+
+Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.
+
+Por ejemplo:
+"gato" => "gaitober"
+gaitober" => "gato"
+
+La página debe tener campos parainserción del texto que será encriptado o desencriptado, y el usuario debe poder escoger entre as dos opciones.
+
+El resultado debe ser mostrado en la pantalla.
+
+#### Extras:
+
+Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
+
+## Desencripta nuestro mensaje secreto!
+
+fenterlimescimesdaidenters poberr enternfrenterntair enterstenter dentersaifimesober y haibenterrlober cobernclufatimesdober cobern enterximestober!
 
 ## 🚀 Estado del Proyecto
 
@@ -63,6 +95,10 @@ Si deseas contribuir al proyecto, por favor realiza un fork del repositorio y en
 ## Seguimiento actividades
 
 ![Trello](image.png)
+
+## Figma
+
+- **Figma:** [Luisa Maria Martinez Ramirez](https://www.figma.com/design/d3CyU7Sb9yLPd28v2Z5sAp/Alura-Challenge---Desaf%C3%ADo-1---L%C3%B3gica-(Copy)?node-id=10-165&t=2nKndRY8EadaaYCN-0)
 
 ## 📧 Contacto
 

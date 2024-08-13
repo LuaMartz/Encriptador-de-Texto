@@ -1,6 +1,6 @@
 # Encriptador de Texto
 
-![Imagen de portada](https://via.placeholder.com/1200x300?text=Encriptador+de+Texto+por+LuaMartz)
+![Encriptador de Texto](https://via.placeholder.com/1200x400.png?text=Encriptador+de+Texto+-+Protege+Tu+Información)
 
 [![GitHub release](https://img.shields.io/github/v/release/luamartz/Encriptador-de-Texto)](https://github.com/luamartz/Encriptador-de-Texto/releases)
 [![GitHub issues](https://img.shields.io/github/issues/luamartz/Encriptador-de-Texto)](https://github.com/luamartz/Encriptador-de-Texto/issues)

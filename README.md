@@ -1,40 +1,76 @@
-# Encriptador-de-Texto
+# Encriptador de Texto
 
-## Descripción
+![Imagen de portada](https://via.placeholder.com/1200x300?text=Encriptador+de+Texto+por+LuaMartz)
 
-¡Bienvenidas y bienvenidos a nuestro primer desafío!
+[![GitHub release](https://img.shields.io/github/v/release/luamartz/Encriptador-de-Texto)](https://github.com/luamartz/Encriptador-de-Texto/releases)
+[![GitHub issues](https://img.shields.io/github/issues/luamartz/Encriptador-de-Texto)](https://github.com/luamartz/Encriptador-de-Texto/issues)
+[![GitHub stars](https://img.shields.io/github/stars/luamartz/Encriptador-de-Texto)](https://github.com/luamartz/Encriptador-de-Texto/stargazers)
+[![GitHub license](https://img.shields.io/github/license/luamartz/Encriptador-de-Texto)](LICENSE)
 
-Durante estas cuatro semanas, vamos a trabajar en una aplicación que encripta textos, así podrás intercambiar mensajes secretos con otras personas que sepan el secreto de la encriptación utilizada.
+## 📋 Índice
 
-Las "llaves" de encriptación que utilizaremos son las siguientes:
+- [Descripción del Proyecto](#-descripción-del-proyecto)
+- [Estado del Proyecto](#-estado-del-proyecto)
+- [Demostración de Funciones y Aplicaciones](#-demostración-de-funciones-y-aplicaciones)
+- [Acceso al Proyecto](#-acceso-al-proyecto)
+- [Tecnologías Utilizadas](#-tecnologías-utilizadas)
+- [Personas Contribuyentes](#-personas-contribuyentes)
+- [Personas Desarrolladoras del Proyecto](#-personas-desarrolladoras-del-proyecto)
+- [Licencia](#-licencia)
+- [Contacto](#-contacto)
 
-La letra "e" es convertida para "enter"
-La letra "i" es convertida para "imes"
-La letra "a" es convertida para "ai"
-La letra "o" es convertida para "ober"
-La letra "u" es convertida para "ufat"
+## 📝 Descripción del Proyecto
 
-## Requisitos
+El "Encriptador de Texto" es una aplicación web diseñada para facilitar la encriptación y desencriptación de texto mediante reemplazo específico de caracteres. Está pensado para usuarios que necesitan una solución sencilla y efectiva para proteger sus comunicaciones textuales sin utilizar caracteres especiales o acentos, enfocándose únicamente en letras minúsculas.
 
-Debe funcionar solo con letras minúsculas
-No deben ser utilizados letras con acentos ni caracteres especiales
-Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.
-Por ejemplo:
-"gato" => "gaitober"
-gaitober" => "gato"
+## 🚀 Estado del Proyecto
 
-La página debe tener campos para
-inserción del texto que será encriptado o desencriptado, y el usuario debe poder escoger entre as dos opciones.
-El resultado debe ser mostrado en la pantalla.
-Extras:
+**Estado:** Finalizado y en mejoras.
 
-Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
-Tenemos un periodo de tiempo de cuatro semanas para desarrollar el proyecto y vamos a trabajar con el sistema ágil de desarrollo, utilizando el Trello de la siguiente forma:
+El proyecto ha sido completado y está funcionando correctamente. Se están realizando mejoras periódicas para optimizar el rendimiento y agregar nuevas funcionalidades.
 
-La columna Listos para iniciar presenta las tarjetas con elementos que aun no fueron desarrollados.
-En la columna En Desarrollo estarán los elementos que estés desarrollando en el momento. Al iniciar una tarea, podrás mover la tarjeta que contiene dicha tarea para esta columna.
-En la columna Pausado estarán los elementos que comenzaste a desarrollar, pero necesitaste parar por algún motivo.
-Por fin, en la columna Concluido estarán los elementos ya concluidos.
-El Trello es una herramienta de uso individual para que puedas controlar el progreso de tus actividades, pero no será evaluada.
+## 🎯 Demostración de Funciones y Aplicaciones
 
-Buen proyecto!
+- **Encriptación de Texto:** Convierte texto plano en una versión encriptada utilizando un método de reemplazo predefinido.
+- **Desencriptación de Texto:** Revierte el proceso de encriptación para recuperar el texto original.
+- **Interfaz de Usuario Amigable:** Diseño intuitivo y fácil de usar que permite una experiencia fluida para el usuario.
+
+[Accede a la demostración en vivo aquí](https://luamartz.github.io/Encriptador-de-Texto/).
+
+## 🔗 Acceso al Proyecto
+
+El proyecto está disponible en GitHub Pages para acceso público:
+
+[https://luamartz.github.io/Encriptador-de-Texto/](https://luamartz.github.io/Encriptador-de-Texto/)
+
+## 🛠 Tecnologías Utilizadas
+
+- **HTML5:** Estructura del sitio web.
+- **CSS3:** Estilización y diseño responsivo.
+- **JavaScript:** Lógica de encriptación y desencriptación.
+- **GitHub Pages:** Hosting del sitio web.
+
+## 🤝 Personas Contribuyentes
+
+Si deseas contribuir al proyecto, por favor realiza un fork del repositorio y envía tus pull requests. Todas las contribuciones son bienvenidas.
+
+## 👩‍💻 Personas Desarrolladoras del Proyecto
+
+- **Luisa Maria Martinez Ramirez (LuaMartz)**
+  - [LinkedIn](https://www.linkedin.com/in/luamartz/)
+  - [GitHub](https://github.com/luamartz)
+
+## 📄 Licencia
+
+Este proyecto está licenciado bajo la [MIT License](LICENSE).
+
+## 📧 Contacto
+
+Para cualquier pregunta o sugerencia, puedes contactar a la desarrolladora principal a través de:
+
+- **Email:** luisamartinez030503@gmail.com
+- **LinkedIn:** [Luisa Maria Martinez Ramirez](https://www.linkedin.com/in/luamartz/)
+
+---
+
+¡Gracias por visitar este proyecto! Si encuentras útil este proyecto, por favor considera darle una estrella en GitHub.

@@ -60,13 +60,13 @@ Si deseas contribuir al proyecto, por favor realiza un fork del repositorio y en
   - [LinkedIn](https://www.linkedin.com/in/luamartz/)
   - [GitHub](https://github.com/luamartz)
 
-## 📄 Licencia
+## Seguimiento actividades
 
-Este proyecto está licenciado bajo la [MIT License](LICENSE).
+![Trello](image.png)
 
 ## 📧 Contacto
 
-Para cualquier pregunta o sugerencia, puedes contactar a la desarrolladora principal a través de:
+Para cualquier pregunta o sugerencia, puedes contactarme a través de:
 
 - **Email:** luisamartinez030503@gmail.com
 - **LinkedIn:** [Luisa Maria Martinez Ramirez](https://www.linkedin.com/in/luamartz/)

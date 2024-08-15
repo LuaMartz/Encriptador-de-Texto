@@ -16,7 +16,6 @@
 - [Tecnologías Utilizadas](#-tecnologías-utilizadas)
 - [Personas Contribuyentes](#-personas-contribuyentes)
 - [Personas Desarrolladoras del Proyecto](#-personas-desarrolladoras-del-proyecto)
-- [Licencia](#-licencia)
 - [Contacto](#-contacto)
 
 ## 📝 Descripción del Proyecto
@@ -31,7 +30,7 @@ La letra "a" es convertida para "ai"
 La letra "o" es convertida para "ober"
 La letra "u" es convertida para "ufat"
 
-### Requisitos:
+### Requisitos
 
 Debe funcionar solo con letras minúsculas
 
@@ -47,11 +46,11 @@ La página debe tener campos parainserción del texto que será encriptado o des
 
 El resultado debe ser mostrado en la pantalla.
 
-#### Extras:
+#### Extras
 
 Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
 
-## Desencripta nuestro mensaje secreto!
+## Desencripta nuestro mensaje secreto
 
 fenterlimescimesdaidenters poberr enternfrenterntair enterstenter dentersaifimesober y haibenterrlober cobernclufatimesdober cobern enterximestober!
 
@@ -104,7 +103,7 @@ Si deseas contribuir al proyecto, por favor realiza un fork del repositorio y en
 
 Para cualquier pregunta o sugerencia, puedes contactarme a través de:
 
-- **Email:** luisamartinez030503@gmail.com
+- **Email:** [luisamartinez030503@gmail.com](luisamartinez030503@gmail.com)
 - **LinkedIn:** [Luisa Maria Martinez Ramirez](https://www.linkedin.com/in/luamartz/)
 
 ---

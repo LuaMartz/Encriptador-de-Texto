@@ -13,6 +13,21 @@ body {
     padding: 0;
 }
 
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    color: #fff;
+    flex-direction: column;
+}
+
+.title h1{
+    color: #0A3871;
+    font-size: x-large;
+    text-align: center;
+}
+
 .contenedor {
     display: flex;
     flex-direction: row;
@@ -237,7 +252,17 @@ footer {
 }
 
 /* Responsivo */
+/* Tablet */
 @media (max-width: 768px) {
+    .title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        color: #fff;
+        flex-direction: row;
+    }
+    
     .contenedor {
         flex-direction: column;
         align-items: flex-start;
@@ -294,7 +319,17 @@ footer {
     }
 }
 
+/* Pantallas pequeñas */
 @media (max-width: 480px) {
+    .title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        color: #fff;
+        flex-direction: row;
+    }
+
     .contenedor {
         padding: 5px;
     }
